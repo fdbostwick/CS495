@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellbeing App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="navbar.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Website navigation bar Start -->
+    <div id="navbar-container" class="navbar-container">
+        <div id="navbar-body flex-row" class="navbar-body">
+            <a class="navbar-brand"></a>
+            <a class="navbar-button" onclick="location.href = 'index.html'">Home</a>
+            <a class="navbar-button selected" onclick="location.href = 'presentations.html'">Presentations</a>
+            <a class="navbar-button" onclick="location.href = 'about.html'">Team</a>
+        </div>
+    </div>
+    <!-- Website navigation bar End -->
+    <div class="flow-container">
+        <!-- Main content Start -->
+        <div class="main-content flex-row">
+            <div>
+                <video width="300" height="500" controls>
+                    <source src="IMG_4037.MOV" type="video/mp4">
+                </video>
+            </div>
+            <div class="introduction flex-column">
+                    <h1>Deliverables: </h1><br>
+                    <a class="button blue ex-large" href="https://github.com/fdbostwick/SHWBApp" target="_blank">Source Code</a>
+                    <a class="button blue ex-large" href="https://drive.google.com/drive/folders/177Xdb2xmFBV9yP_fc5y6Vj2YKmryg6XY?usp=sharing" target="_blank">Presentations</a>
+                    <a class="button blue ex-large" href="../app/client/android/app/build/outputs/apk/release/app-release.apk" download>Download</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
